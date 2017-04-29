@@ -1,0 +1,114 @@
+doctype html
+html
+	head
+		title Digiboom | Digital Marketing Solutions
+		meta(charset='utf-8') 
+		meta(name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+		meta(name="HandheldFriendly" content="true")
+		link(rel='stylesheet', href='../CSS/style.css') 
+		
+	body
+		header.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#header-background.col-lg-12.col-md-12.col-sm-12.col-xs-12 
+			#header-graphics.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#header-graphics-back.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#header-content-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				nav.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					#logo.col-lg-7.col-md-7.col-sm-7.col-xs-12
+						a(href='index.html').col-lg-12.col-md-12.col-sm-12.col-xs-12
+							img(src="../Images/logosolocircle.png" width="50px" height='50px').col-lg-1.col-md-1.col-sm-1.col-xs-12
+							span#main DIGIBOOM 
+							br 
+							span#sub Digital Marketing Soutions
+					#menu.col-lg-5.col-md-5.col-sm-5.col-xs-12
+						a(href='index.html')#home.col-lg-3.col-md-3.col-sm-3.col-xs-3 Home
+						a(href='about.html')#about.col-lg-3.col-md-3.col-sm-3.col-xs-3 About
+						a(href='contactus.html')#contact.col-lg-3.col-md-3.col-sm-3.col-xs-3 
+							p Contact Us
+
+				#header-content.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					#written-content.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						h3#main-heading Let us help your business GROW
+						br
+						h5#sub-heading with our digital marketing solutions
+					#get-mobile.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						form(name='mobile-number',method='post',action='mobile.php')#mobile-form
+							input(name='userNumber',type='text',maxlength='10',placeholder='Your 10 digit mobile number.' required)#mobileNumber
+							button(name="submit",type='submit',value="Get in touch")#submit-button We wll call you ASAP
+		#what-we-do.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#what-we-do-heading.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				h3 What we do ? 
+			#what-we-do-subheading.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				h4 Our experts team at DIGIBOOM supports online publishers in maximizing digital monetization, aggregation of publishers Ad space and sale to advertisers.
+			#page-break.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#we-can-help.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				h3 We can help you with
+
+			#services.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				#service-tile-holder.col-lg-10.col-md-10.col-sm-10.col-xs-11
+					#aggregator.service-tile.col-lg-3.col-md-3.col-sm-3.col-xs-12
+						#aggregator-image.service-image-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						#content.serviceName.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							h5 Aggregation of Publishers
+					#adNetwork.service-tile.col-lg-3.col-md-3.col-sm-3.col-xs-12 
+						#adNetwork-image.service-image-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						#content.serviceName.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							h5 Ad Network
+					#consultancy.service-tile.col-lg-3.col-md-3.col-sm-3.col-xs-12
+						#consultancy-image.service-image-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						#content.serviceName.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							h5 Consultancy
+					#design.service-tile.col-lg-3.col-md-3.col-sm-3.col-xs-12
+						#design-image.service-image-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						#content.serviceName.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							h5 Design
+					#seo.service-tile.col-lg-3.col-md-3.col-sm-3.col-xs-12 
+						#seo-image.service-image-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						#content.serviceName.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							h5 Search Engine Optimization
+					#smo.service-tile.col-lg-3.col-md-3.col-sm-3.col-xs-12
+						#smo-image.service-image-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+						#content.serviceName.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							h5 Social Media Optimization 
+
+		#inquire-form.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#form-holder.col-lg-10.col-md-10.col-sm-10.col-xs-10
+				#form-holder-heading.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					h3 Send us an enquiry mail.
+				form(name='enquireaboutservices',method='post',action='enquiremail.php')#enquireaboutservices.col-lg-9.col-md-9.col-sm-9.col-xs-10
+					input(type='text',name='name',placeholder='Your name',maxlength='30' required)#yourName.col-lg-5.col-md-5.col-sm-5.col-xs-10
+					input(type='email',name='email',placeholder='Your Email Id' required)#yourEmail.col-lg-6.col-md-6.col-sm-6.col-xs-10
+					input(type='text',name='subject',placeholder='Subject of enquiry' required)#yourSubject.col-lg-12.col-md-12.col-sm-12.col-xs-10 
+					textarea(name='message',placeholder='Your message . . .' required)#yourMessage.col-lg-12.col-md-12.col-sm-12.col-xs-10
+					button(type='submit',name='SubmitEnquiryForm')#submitEnquiryMail.col-lg-4.col-md-4.col-sm-4.col-xs-10 
+						#submitEnquiryMailImage
+						span Send Enquiry Mail
+
+		footer.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#logo-image.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#menu-options.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				a(href="index.html")#footer-home Home
+				a(href="about.html")#footer-about About
+				a(href="contact.html")#footer-contact Contact
+			#social-media-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#copyrights.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				h4 2016 All rights reserved @ DigiBoom | Digital marketing solutions.
+				#designedby
+					h5 Website designed and developed by 
+						a(href="#") Bhuvan Singh.
+
+		
+		a(href="#",target="_blank")
+			#facebook
+		a(href="#",target="_blank")
+			#googleplus
+
+
+
+
+					
+		//- script goes here 
+		script(src="../JS/script.js")
+		
+		

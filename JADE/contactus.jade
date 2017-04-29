@@ -1,0 +1,104 @@
+doctype html
+html
+	head
+		title Digiboom | Digital Marketing Solutions
+		meta(charset='utf-8') 
+		meta(name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+		meta(name="HandheldFriendly" content="true")
+		link(rel='stylesheet', href='../CSS/contactus.css') 
+		
+	body
+		header.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#header-background.col-lg-12.col-md-12.col-sm-12.col-xs-12 
+			#header-content-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				nav.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					#logo.col-lg-7.col-md-7.col-sm-7.col-xs-12
+						a(href='index.html').col-lg-12.col-md-12.col-sm-12.col-xs-12
+							img(src="../Images/logosolocircle.png" width="50px" height='50px').col-lg-1.col-md-1.col-sm-1.col-xs-12
+							span#main DIGIBOOM 
+							br 
+							span#sub Digital Marketing Soutions
+					#menu.col-lg-5.col-md-5.col-sm-5.col-xs-12
+						a(href='index.html')#home.col-lg-3.col-md-3.col-sm-3.col-xs-3 Home
+						a(href='about.html')#about.col-lg-3.col-md-3.col-sm-3.col-xs-3 About
+						a(href='contactus.html')#contact.col-lg-3.col-md-3.col-sm-3.col-xs-3 
+							p Contact Us
+
+		#contactUsPopUp-map.col-lg-12.col-md-12.col-sm-12.col-xs-12
+        
+		#contactUsPopUp.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#contact-heading-float.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#contact-heading-float-content
+				h3 Get in touch 
+				h5 Our team will reply to your mail ASAP
+
+			//- #contactUsPopUp-heading.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				//- #contactUsPopUp-heading-written.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					h2 Contact DigiBoom Team
+				#contactUsPopUp-heading-close-icon.col-lg-1.col-md-1.col-sm-1.col-xs-1
+			#contactUsPopUp-main.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				
+				#contactUsPopUp-main-holder.col-lg-10.col-md-10.col-sm-10.col-xs-10
+					#contactUsPopUp-main-left.col-lg-6.col-md-6.col-sm-6.col-xs-12
+						#contactUsPopUp-main-left-content-holder.col-lg-12.col-md-12.col-sm-12.col-xs-10
+							//- #contactUsPopUp-logo.col-lg-12.col-md-12.col-sm-12.col-xs-12
+							#contactUsPopUp-address-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+								#contactUsPopUp-address-holder-icon.col-lg-12.col-md-12.col-sm-12.col-xs-12
+								#contactUsPopUp-address-holder-content.col-lg-12.col-md-12.col-sm-12.col-xs-12
+									a DigiBoom | Digital Marketing Solutions 
+									br 
+									|Bapa Market , Karol bagh
+									br 
+									|New Delhi, Delhi - 110022
+									br 
+									|info@digiboom.co.in
+
+									
+							#contactUsPopUp-map.col-lg-11.col-md-11.col-sm-11.col-xs-12
+
+					#contactUsPopUp-main-right.col-lg-6.col-md-6.col-sm-6.col-xs-12
+						#contactUsPopUp-main-right-content-holder.col-lg-11.col-md-11.col-sm-11.col-xs-10
+							#form-holder-heading.col-lg-12.col-md-12.col-sm-12.col-xs-12
+								h3 Send us an enquiry mail.
+							form(name='enquireaboutservices',method='post',action='enquiremail.php')#enquireaboutservices.col-lg-12.col-md-12.col-sm-12.col-xs-10
+								input(type='text',name='name',placeholder='Your name',maxlength='30' required)#yourName.col-lg-11.col-md-11.col-sm-11.col-xs-10
+								input(type='email',name='email',placeholder='Your Email Id' required)#yourEmail.col-lg-11.col-md-11.col-sm-11.col-xs-10
+								input(type='text',name='subject',placeholder='Subject of enquiry' required)#yourSubject.col-lg-11.col-md-11.col-sm-11.col-xs-10 
+								textarea(name='message',placeholder='Your message . . .' required)#yourMessage.col-lg-11.col-md-11.col-sm-11.col-xs-10
+								button(type='submit',form='enquireaboutservices',name='SubmitEnquiryForm')#submitEnquiryMail.col-lg-11.col-md-11.col-sm-11.col-xs-10 
+									#submitEnquiryMailImage
+									span Send Enquiry Mail
+
+
+		footer.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#logo-image.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#menu-options.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				a(href="index.html")#footer-home Home
+				a(href="about.html")#footer-about About
+				a(href="contact.html")#footer-contact Contact
+			#social-media-holder.col-lg-12.col-md-12.col-sm-12.col-xs-12
+			#copyrights.col-lg-12.col-md-12.col-sm-12.col-xs-12
+				h4 2016 All rights reserved @ DigiBoom | Digital marketing solutions.
+				#designedby
+					h5 Website designed and developed by 
+						a(href="#") Bhuvan Singh.
+
+		a(href="#",target="_blank")
+			#facebook
+		a(href="#",target="_blank")
+			#googleplus
+
+		script( async defer ,src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKTBNoOpm7jUOHQfAgJNxZ25gU3pHP_EU&callback=initMap")
+		script.
+			function initMap() {
+				var uluru = {lat: 28.6550, lng: 77.1809};
+				var map = new google.maps.Map(document.getElementById('contactUsPopUp-map'), { 
+					zoom: 12,
+					center: uluru
+				});
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			}

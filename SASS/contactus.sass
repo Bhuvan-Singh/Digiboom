@@ -1,0 +1,321 @@
+@import gridlayout.sass
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+
+*
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+	border: 0 
+a 
+	text-decoration: none
+body 
+	border: 0
+	font-family: 'Montserrat', sans-serif;
+	position: relative
+	z-index: 2
+
+
+header
+	height: 95px 
+	// border: 1px solid black
+	position: relative
+
+#header-background
+	position: absolute
+	height: 100%
+	z-index: 2
+	background-color: #254196
+
+#header-content-holder
+	position: absolute
+	height: 100%
+	z-index: 3
+
+	nav 
+		height: 95px 
+		// border-bottom: 0.1rem solid #FEF5D9 
+		// box-shadow: 0px 1px 0.5px #F2EADA
+		padding-top: 1%
+		padding-bottom: 1%
+		#logo 
+			height: 100%
+			// background-image: url('../Images/digiboomlogo.png');
+			background-repeat: no-repeat
+			background-position: center left
+			padding-top: 1.4%
+			padding-left: 11%
+			img 
+				margin-top: -4px
+			a 
+				color: #fff
+			#main
+				font-size: 1.2rem
+				padding-left: 4px
+			#sub 
+				font-size: 0.6rem
+				color:#5FCE7C
+				padding-left: 4px
+
+
+
+
+		#menu
+			height: 100%
+			padding-top:2.2%
+
+			a 
+				color: white 
+				font-size: 1.02rem
+
+			#home:hover 
+				color: #5FCE7C
+			#about:hover 
+				color: #5FCE7C
+			#contact
+				margin-top: -5px
+				p
+					padding: 8px 0 8px 0
+					background-color: #5FCE7C 
+					text-align: center
+					border-radius: 3px
+			#contact:hover 
+				opacity: .8
+#contactUsPopUp-map
+	height: 400px 
+	position: relative
+	z-index: 2
+	opacity: 1
+					
+	#map-fader
+		
+		z-index: 10
+		height: 200px
+		width: 200px
+		background: #254196
+
+	
+	
+
+#contactUsPopUp
+	height: 600px
+	position: relative
+	background-color: #fff
+	z-index: 5
+
+	
+
+	// visibility: hidden
+	#contact-heading-float
+		position: absolute
+		height: 400px 
+		color: #fff
+		background: #254196
+		top: -400px
+		opacity: 0.45
+	#contact-heading-float-content
+		position: absolute
+		left: 150px
+		top: -260px
+
+		h3
+			font-size: 3.9rem
+			color: #254196 
+
+		h5
+			font-size: 1.1rem
+			color: #f2f2f2
+			padding-left: 25px 
+
+
+
+	#contactUsPopUp-heading
+		position: relative
+		height: 90px
+		margin-bottom: 6%
+		// border: 1px solid black
+
+		#contactUsPopUp-heading-written
+			text-align: center
+			color: #254196
+			padding: 4.5% 0
+
+		#contactUsPopUp-heading-close-icon
+			position: absolute
+			height: 100%
+			// border: 1px solid black
+			display: none
+			left: 83.33%
+			background-image: url('../Images/cancel (1).png')
+			background-repeat: no-repeat
+			background-position: center
+			cursor: pointer
+
+	#contactUsPopUp-main
+		height: 900px 
+		// border: 1px solid black
+
+		#contactUsPopUp-main-holder
+			height: 100%
+			// border:1px solid black
+			margin-left: 8.33%
+
+			#contactUsPopUp-main-left
+				height: 100%
+				// border:1px solid blue
+
+
+				// #contactUsPopUp-logo
+				// 	height: 270px
+				// 	background-image: url('../Images/logo.png')
+				// 	background-repeat: no-repeat
+				// 	background-size: contain
+				// 	background-position: center
+
+				#contactUsPopUp-address-holder
+					padding: 2%
+
+					#contactUsPopUp-address-holder-icon
+						height:60px 
+						background-image: url('../Images/placeholder (4).png')
+						background-repeat: no-repeat
+						background-size: contain
+						background-position: center
+						margin-bottom: 8% 
+						margin-top: 10%
+
+					#contactUsPopUp-address-holder-content
+						text-align: center
+						margin-bottom:4% 
+						color: #7791AF
+						line-height: 2
+
+
+			#contactUsPopUp-main-right
+				position: relative
+				#contactUsPopUp-main-right-content-holder
+					position: absolute
+					top: -250px
+					margin-left: 8.33%
+					background-color: #fff
+					border: 1px solid #e4e6f0 
+					box-shadow: 2px 5px 5px  0px #e4e6f0;
+
+					#form-holder-heading
+						color: #7791AF
+						font-size: 1.2rem
+						text-align: center
+						padding:8% 0
+					#enquireaboutservices
+						padding-left: 8.33%
+
+						input
+							height: 50px
+							padding-left: 15px 
+							margin-bottom: 6%
+							border: 2px solid #e4e6f0
+						textarea
+							height: 200px 
+							padding: 15px 
+							margin-bottom:10%
+							border: 2px solid #e4e6f0
+
+						#submitEnquiryMail
+							height: 50px
+							background-color: #5FCE7C 
+							color: #fff
+							letter-spacing: 0.5px
+							font-weight: 700
+							cursor: pointer
+							margin-bottom: 10%
+						#submitEnquiryMailImage
+							height:50px
+							width: 30px
+							background-image: url('../Images/paper-plane (1).png')
+							background-size: contain
+							background-repeat: no-repeat
+							background-position: center
+							float: left
+							margin-left: 28%
+						span 
+							float: left
+							height: 50px
+							padding: 17px 0 0 20px
+
+					#submitEnquiryMail:hover
+						opacity: 0.9
+							
+
+
+
+footer
+	background-color: #254196
+	border-top: 1px solid #e4e6f0;
+
+	#logo-image
+		height: 120px
+		background-image: url('../Images/logoCircle.png')
+		background-repeat: no-repeat
+		background-size: contain
+		background-position: center
+		margin-top: 50px
+
+	#copyrights
+		text-align: center
+		color: #999
+		font-size: 1rem
+		padding:2.5% 0 0% 0
+		letter-spacing: 0.9px
+		h4 
+			padding-bottom: 4%
+	#menu-options
+		padding: 1.5% 0 0% 40.5%
+		text-align: left
+
+		a 
+			text-decoration: none
+			padding-right: 3%
+			font-size: 1.1rem
+			padding-top: 4%
+			color: #999
+			letter-spacing: 0.7px
+		a:nthchild(1)
+			padding-left:2%
+		a:hover
+			color: #5FCE7C
+
+
+	#designedby
+		padding-top: 1%
+		text-align: center
+		color: #999
+		padding-bottom: 1%
+		background-color: #f7f8fc
+		
+
+		a
+			color : #5FCE7C
+
+
+#facebook
+	position: fixed
+	height: 40px 
+	width: 40px 
+	background-color:  white
+	z-index: 10
+	top: 240px
+	background-image: url("../Images/facebook.png")
+	background-size: contain
+	background-position: center
+	background-repeat: no-repeat
+#googleplus
+	position: fixed
+	height: 40px 
+	width: 40px 
+	background-color:  white
+	z-index: 10
+	top: 285px
+	background-image: url("../Images/google-plus.png")
+	background-size: contain
+	background-position: center
+	background-repeat: no-repeat

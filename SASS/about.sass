@@ -1,0 +1,239 @@
+//Imports 
+@import gridlayout.sass
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+
+
+//imports end here 
+
+//stylin begins here
+*
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+	border: 0 
+a 
+	text-decoration: none
+body 
+	border: 0
+	font-family: 'Montserrat', sans-serif;
+	position: relative
+
+
+header
+	height: 480px 
+	// border: 1px solid black
+	position: relative
+
+#header-background
+	position: absolute
+	height: 100%
+	z-index: 2
+	background-color: #254196
+#header-graphics
+	position: absolute
+	height: 480px
+	z-index: 4
+	background-image: url('../Images/airplane.png')
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	opacity: 0.4
+
+#header-graphics-back
+	position: absolute
+	height: 480px
+	z-index: 3
+	background-image: url('../Images/cover-shattered.png')
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	opacity: 0.1
+
+#header-content-holder
+	position: absolute
+	height: 100%
+	z-index: 5
+
+	nav 
+		height: 80px 
+		padding-top: 1%
+		// border-bottom: 0.1rem solid #FEF5D9 
+		// box-shadow: 0px 1px 0.5px #F2EADA
+		#logo 
+			height: 100%
+			// background-image: url('../Images/digiboomlogo.png');
+			background-repeat: no-repeat
+			background-position: center left
+			padding-top: 1.4%
+			padding-left: 11%
+			img 
+				margin-top: -4px
+			a 
+				color: #fff
+			#main
+				font-size: 1.2rem
+				padding-left: 4px
+			#sub 
+				font-size: 0.6rem
+				color:#5FCE7C
+				padding-left: 4px
+
+
+
+
+		#menu
+			height: 100%
+			padding-top:2.2%
+
+			a 
+				color: white 
+				font-size: 1.02rem
+
+			#home:hover 
+				color: #5FCE7C
+			#about:hover 
+				color: #5FCE7C
+			#contact
+				margin-top: -5px
+				p
+					padding: 8px 0 8px 0
+					background-color: #5FCE7C 
+					text-align: center
+					border-radius: 3px
+			#contact:hover 
+				opacity: .8
+
+	#written-content
+		text-align: center
+		padding: 9.5% 30% 5% 30%
+
+		#main-heading
+			color: #fff
+			font-size: 2.8rem
+			letter-spacing: 0.4px 
+		#sub-heading
+			color:#f1f1f1
+			font-size: 1.5rem
+			letter-spacing: 0.4px 
+
+#about-us-holder
+	text-align: center
+	padding-bottom: 0%
+
+	#about-us-heading
+		padding: 10% 0 3% 0
+		color: #2F303D
+
+	#about-us-content
+		padding: 0 25% 5% 25%
+		color: #999
+		line-height: 1.9
+		word-spacing: 0.5px 
+		letter-spacing: 0.8px 
+
+		p 
+			margin-bottom: 7%
+
+#monetize
+	height:850px
+	background-color: #f7f8fc
+	border-top: 1px solid #e4e6f0;
+
+	#monetize-heading
+		padding: 5% 0 3.5% 0
+
+	#monetize-image
+		height: 650px 
+		margin-left: 8.33%
+		background-image: url('../Images/monetize.png')
+		background-position: center
+		background-size: contain
+		background-repeat: no-repeat
+
+
+
+
+
+
+
+
+
+
+
+footer
+	background-color: #254196
+	border-top: 1px solid #e4e6f0;
+
+	#logo-image
+		height: 120px
+		background-image: url('../Images/logoCircle.png')
+		background-repeat: no-repeat
+		background-size: contain
+		background-position: center
+		margin-top: 50px
+
+	#copyrights
+		text-align: center
+		color: #999
+		font-size: 1rem
+		padding:2.5% 0 0% 0
+		letter-spacing: 0.9px
+		h4 
+			padding-bottom: 4%
+	#menu-options
+		padding: 1.5% 0 0% 40.5%
+		text-align: left
+
+		a 
+			text-decoration: none
+			padding-right: 3%
+			font-size: 1.1rem
+			padding-top: 4%
+			color: #999
+			letter-spacing: 0.7px
+		a:nthchild(1)
+			padding-left:2%
+		a:hover
+			color: #5FCE7C
+
+
+	#designedby
+		padding-top: 1%
+		text-align: center
+		color: #999
+		padding-bottom: 1%
+		background-color: #f7f8fc
+		
+
+		a
+			color : #5FCE7C
+
+
+
+
+// Floating social media 
+
+
+#facebook
+	position: fixed
+	height: 40px 
+	width: 40px 
+	background-color:  white
+	z-index: 10
+	top: 240px
+	background-image: url("../Images/facebook.png")
+	background-size: contain
+	background-position: center
+	background-repeat: no-repeat
+#googleplus
+	position: fixed
+	height: 40px 
+	width: 40px 
+	background-color:  white
+	z-index: 10
+	top: 285px
+	background-image: url("../Images/google-plus.png")
+	background-size: contain
+	background-position: center
+	background-repeat: no-repeat

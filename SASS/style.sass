@@ -1,0 +1,383 @@
+//Imports 
+@import gridlayout.sass
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+
+
+//imports end here 
+
+//stylin begins here
+*
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+	border: 0 
+a 
+	text-decoration: none
+body 
+	border: 0
+	font-family: 'Montserrat', sans-serif;
+	position: relative
+
+
+header
+	height: 480px 
+	// border: 1px solid black
+	position: relative
+
+#header-background
+	position: absolute
+	height: 100%
+	z-index: 2
+	background-color: #254196
+#header-graphics
+	position: absolute
+	height: 480px
+	z-index: 4
+	background-image: url('../Images/cover-shattered.png')
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	opacity: 0.14
+#header-graphics-back
+	position: absolute
+	height: 480px
+	z-index: 3
+	background-image: url('../Images/cover-shattered-back.png')
+	background-position: center
+	background-size: contain
+	background-repeat: no-repeat
+	opacity: 0.07
+
+#header-content-holder
+	position: absolute
+	height: 100%
+	z-index: 5
+
+	nav 
+		height: 80px 
+		padding-top: 1%
+		// border-bottom: 0.1rem solid #FEF5D9 
+		// box-shadow: 0px 1px 0.5px #F2EADA
+		#logo 
+			height: 100%
+			// background-image: url('../Images/digiboomlogo.png');
+			background-repeat: no-repeat
+			background-position: center left
+			padding-top: 1.4%
+			padding-left: 11%
+			img 
+				margin-top: -4px
+			a 
+				color: #fff
+			#main
+				font-size: 1.2rem
+				padding-left: 4px
+			#sub 
+				font-size: 0.6rem
+				color:#5FCE7C
+				padding-left: 4px
+
+
+
+
+		#menu
+			height: 100%
+			padding-top:2.2%
+
+			a 
+				color: white 
+				font-size: 1.02rem
+
+			#home:hover 
+				color: #5FCE7C
+			#about:hover 
+				color: #5FCE7C
+			#contact
+				margin-top: -5px
+				p
+					padding: 8px 0 8px 0
+					background-color: #5FCE7C 
+					text-align: center
+					border-radius: 3px
+			#contact:hover 
+				opacity: .8
+
+	#written-content
+		text-align: center
+		padding: 6.5% 0 5% 0
+
+		#main-heading
+			color: #fff
+			font-size: 1.9rem
+			letter-spacing: 0.4px 
+		#sub-heading
+			color:#C0BABD
+			font-size: 1.3rem
+
+	#get-mobile
+		padding: 0 0 0 29.5%
+		#mobile-form
+			#mobileNumber
+				width: 300px
+				height: 50px
+				font-size: 1.1rem
+				padding: 0 20px 0 40px
+				border-radius: 3px
+
+
+			#submit-button
+				width: 230px
+				height: 50px
+				margin-left: 15px
+				font-size: 1.01rem
+				border-radius: 3px
+				background-color: #5FCE7C 
+				color: #fff
+				letter-spacing: 0.5px
+				font-weight: 700
+				cursor: pointer
+			#submit-button:hover
+				opacity: 0.8
+
+#what-we-do
+	height: 1390px
+	padding: 9% 0 10% 0 	
+	background-color: #fff	
+
+	#what-we-do-heading
+		text-align: center
+		font-size: 1.8rem
+		color: #495063
+	#what-we-do-subheading
+		text-align: center
+		padding: 2.5% 17% 8% 17%
+		color:#7791AF
+		font-size: 1.3rem
+		line-height: 1.5
+	#page-break
+		height: 30px
+		// background-image: url('../Images/analytics-hand-drawn-lines.png')
+		background-image: url('../Images/more.png')
+		background-repeat: no-repeat
+		background-position: center
+
+	#we-can-help
+		text-align: center
+		font-size: 1.8rem
+		color: #495063
+		// border-top: 1px solid #e4e6f0;
+		margin-top: 30px
+		padding-top: 5%
+
+	#service-tile-holder
+		// height: 200px 
+		// border:1px solid black 
+		margin-left: 8.33%
+		margin-top: 3%
+
+		.service-tile
+			height: 180px 
+			// border: 1px solid black
+			margin-left:6.25%
+			margin-top: 6%
+			margin-bottom: 4%
+		.service-image-holder
+			height: 80%
+
+		.serviceName
+			text-align: center
+			padding-top: 9%
+			font-size: 1.1rem
+			color: #254196
+
+
+		#aggregator
+			#aggregator-image
+				background-image: url('../Images/aggregation.jpg')
+				background-position: center
+				background-repeat: no-repeat
+				background-size: cover
+
+		#adNetwork
+			#adNetwork-image
+				background-image: url('../Images/adnetwork1.png')
+				background-position: center
+				background-repeat: no-repeat
+				background-size: contain
+		#consultancy 
+			#consultancy-image
+				background-image: url('../Images/consultancy.png')
+				background-position: center
+				background-repeat: no-repeat
+				background-size: contain
+		#design 
+			#design-image
+				background-image: url('../Images/design-icon.png')
+				background-position: center
+				background-repeat: no-repeat
+				background-size: contain
+		#seo 
+			#seo-image
+				background-image: url('../Images/seo.png')
+				background-position: center
+				background-repeat: no-repeat
+				background-size: contain
+		#smo 
+			#smo-image
+				background-image: url('../Images/smo.png')
+				background-position: center
+				background-repeat: no-repeat
+				background-size: contain
+#inquire-form
+	height:	550px
+	background-color: #f7f8fc 
+	border-top: 1px solid #e4e6f0;
+	position: relative
+
+#form-holder
+	height: 550px
+	background-color: #fff
+	border: 1px solid #e4e6f0
+	position: absolute
+	top: -90px
+	left: 8.33%
+
+#form-holder-heading
+	padding: 4% 0 6% 0
+	text-align: center
+	color: #7791AF
+#enquireaboutservices
+	margin-left: 12.66%
+
+	input 
+		// font-size: 1.0rem
+
+	#yourName
+		height: 50px
+		width: 45.65%
+		padding: 20px 
+		border: 1px solid #e4e6f0
+		background-color: #f7f8fc
+	#yourEmail
+		height: 50px
+		padding: 20px
+		border: 1px solid #e4e6f0
+		background-color: #f7f8fc
+		margin: 0  0 2.5% 4.33%
+	#yourSubject
+		height: 50px
+		padding: 20px
+		border: 1px solid #e4e6f0
+		background-color: #f7f8fc
+		margin-bottom: 2.5%
+	#yourMessage
+		height: 100px
+		padding: 20px
+		border: 1px solid #e4e6f0
+		background-color: #f7f8fc
+		margin-bottom: 5.5%
+	#submitEnquiryMail
+		height: 50px
+		background-color: #5FCE7C 
+		color: #fff
+		letter-spacing: 0.5px
+		font-weight: 700
+		cursor: pointer
+		margin-left: 66.66%
+
+		#submitEnquiryMailImage
+			height:50px
+			width: 30px
+			background-image: url('../Images/paper-plane (1).png')
+			background-size: contain
+			background-repeat: no-repeat
+			background-position: center
+			float: left
+			margin-left: 16%
+		span 
+			float: left
+			height: 50px
+			padding: 17px 0 0 20px
+
+	#submitEnquiryMail:hover
+		opacity: 0.9
+
+footer
+	background-color: #254196
+	border-top: 1px solid #e4e6f0;
+
+	#logo-image
+		height: 120px
+		background-image: url('../Images/logoCircle.png')
+		background-repeat: no-repeat
+		background-size: contain
+		background-position: center
+		margin-top: 50px
+
+	#copyrights
+		text-align: center
+		color: #999
+		font-size: 1rem
+		padding:2.5% 0 0% 0
+		letter-spacing: 0.9px
+		h4 
+			padding-bottom: 4%
+	#menu-options
+		padding: 1.5% 0 0% 40.5%
+		text-align: left
+
+		a 
+			text-decoration: none
+			padding-right: 3%
+			font-size: 1.1rem
+			padding-top: 4%
+			color: #999
+			letter-spacing: 0.7px
+		a:nthchild(1)
+			padding-left:2%
+		a:hover
+			color: #5FCE7C
+
+
+	#designedby
+		padding-top: 1%
+		text-align: center
+		color: #999
+		padding-bottom: 1%
+		background-color: #f7f8fc
+		
+
+		a
+			color : #5FCE7C
+
+
+
+
+// Floating social media 
+
+
+#facebook
+	position: fixed
+	height: 40px 
+	width: 40px 
+	background-color:  white
+	z-index: 10
+	top: 240px
+	background-image: url("../Images/facebook.png")
+	background-size: contain
+	background-position: center
+	background-repeat: no-repeat
+#googleplus
+	position: fixed
+	height: 40px 
+	width: 40px 
+	background-color:  white
+	z-index: 10
+	top: 285px
+	background-image: url("../Images/google-plus.png")
+	background-size: contain
+	background-position: center
+	background-repeat: no-repeat
+
+  
